@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px -3px black;
+}
+
+.displaySize {
+    width: 400px;
+    margin: auto;
+    margin-top: 10em;
+    border: 1px solid #fff;
+    background: #dddddd26;
+    box-shadow: inset 0px 3px 18px 12px #dddddd26, inset 0px 0px 18px 11px #dddddd26;
+}
+
+h2.title {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin: 15px 0px;
+    margin-bottom: 3px;
+    color: #ff9f10;
+}
+
+.user {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: monospace,cursive;
+    color: #5601015c;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    display: block;
+    outline: none;
+    border: none;
+    margin: 24px 21px;
+    width: 85%;
+    box-shadow: inset 2px 13px 8px 0px #e0e0e03b, inset 2px 4px 4px 0px #18181852, 0px 6px 13px 0px #9a929226;
+    border-radius: 100px;
+    height: 38px;
+    padding-left: 13px;
+}
+
+input[type="password"] {
+    display: block;
+    outline: none;
+    border: none;
+    margin: 20px 20px;
+    width: 85%;
+    box-shadow: inset 2px 13px 8px 0px #e0e0e03b, inset 2px 4px 4px 0px #18181852, 0px 6px 13px 0px #9a929226;
+    border-radius: 100px;
+    height: 35px;
+    padding-left: 13px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 168px;
+    border: none;
+    outline: none;
+    height: 38px;
+    background: linear-gradient(180deg, #2b4abded,#91a1dd);
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: inset -2px -4px 0px 2px #0e0e0e00;
+}
+
+    button:active {
+        background: linear-gradient(10deg, #2b4abded,#91a1dd);
+    }
+
+.or {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.border {
+    margin: auto;
+    overflow: hidden;
+}
+
+a.forgetpass {
+    font-size: 14px;
+    margin: 20px;
+    color: #662f9682;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.singup {
+    font-size: 14px;
+    margin: 20px;
+    color: #662f9682;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.end {
+    margin: 15px 28px;
+    margin-bottom: 40px;
+}
